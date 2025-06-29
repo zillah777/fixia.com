@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serviplay</title>
+    
+    <!-- PWA Meta Tags -->
+    <meta name="description" content="Aplicación web progresiva Serviplay">
+    <meta name="theme-color" content="#2196f3">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="Serviplay">
+    <meta name="msapplication-TileImage" content="icons/icon-144x144.png">
+    <meta name="msapplication-TileColor" content="#2196f3">
+    
+    <!-- Manifest -->
+    <link rel="manifest" href="manifest.json">
+    
+    <!-- Icons -->
+    <link rel="apple-touch-icon" href="icons/icon-152x152.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/icon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/icon-16x16.png">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app">
+        <header class="header">
+            <h1>Serviplay</h1>
+            <button id="installButton" class="install-button" style="display: none;">
+                Instalar App
+            </button>
+        </header>
+        
+        <main class="main">
+            <div class="welcome-section">
+                <h2>Bienvenido a Serviplay</h2>
+                <p>Tu aplicación web progresiva está lista para usar.</p>
+            </div>
+            
+            <div class="features-section">
+                <div class="feature-card">
+                    <h3>Funciona sin conexión</h3>
+                    <p>Accede a contenido básico incluso sin internet.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <h3>Instalable</h3>
+                    <p>Instala la app en tu dispositivo como una app nativa.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <h3>Responsive</h3>
+                    <p>Funciona perfectamente en móviles, tablets y desktop.</p>
+                </div>
+            </div>
+        </main>
+        
+        <footer class="footer">
+            <p>&copy; 2025 Serviplay. Todos los derechos reservados.</p>
+        </footer>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

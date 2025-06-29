@@ -1,0 +1,11 @@
+frontend/
+docs/
+*.md
+.git/
+.gitignore
+icons/
+index.html
+manifest.json
+script.js
+styles.css
+sw.js

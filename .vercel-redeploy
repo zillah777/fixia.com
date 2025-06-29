@@ -1,0 +1,8 @@
+# Archivo para forzar redeploy de Vercel
+# Este archivo se actualiza para disparar redeploy cuando necesitamos 
+# asegurarnos de que Vercel tome los últimos cambios
+
+Última actualización: 2025-06-24 01:50:00
+Cambios incluidos: Dashboard con datos reales del usuario
+Commit anterior en Vercel: c2d5f59
+Necesario redeploy para: Mostrar nombres reales en lugar de datos simulados
